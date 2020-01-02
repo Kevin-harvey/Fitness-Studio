@@ -1,0 +1,207 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar{
+    background-color:white !important; 
+    height: 75px;
+}
+ 
+.navbar-brand{
+    color: white !important;
+    margin-left: 2rem;
+}
+
+.navbar a{
+    color: darkgrey;
+    margin-right: 2rem;
+}
+
+.navbar a :hover{
+    color: black;
+}
+
+#showcase {
+    background: url('../img/showcase.jpg') center center no-repeat;
+    background-size: cover;
+    color: #393d3f;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#showcase-caption {
+    font-weight: 50;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#showcase-caption h1 {
+    color: #393d3f;
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#showcase-caption p {
+    color: #ef8c24;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#section-2{
+   margin:3rem 0;
+   padding: 0;
+}
+
+#sec-2-caption h2{
+    color: #ef8c24;
+    font-size: 2rem;
+    font-weight: 200;
+    max-width: 80rem;
+    margin: 1rem ;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+#sec-2-caption p{
+    color: #393d3f;
+    padding-right: 2rem;
+}
+
+#courses-caption {
+    font-weight: 50;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#courses-caption h1 {
+    color: #ef8c24;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#cards{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#cards-course h3{
+    margin-top: 1rem;
+    color: #ef8c24;
+    font-family: 'Anton';
+}
+
+#cards-course p{
+    color: #393d3f;
+    font-family: 'Anton';
+}
+
+#trainers-caption {
+    font-weight: 50;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#trainers-caption h1 {
+    color: #ef8c24;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#our-trainers{
+    align-items: center;
+    justify-items: center;
+    padding-left: 5rem;
+}
+
+#cards-trainers{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    
+}
+
+#cards-trainers h5{
+    margin-top: 1rem;
+    color: #ef8c24;
+    font-family: 'Anton';
+}
+
+#cards-trainers p{
+    color: #393d3f;
+    font-family: 'Anton';
+    max-width: 15rem;
+}
+
+.section-con{
+    background-color: #ef8c24;
+}
+
+#contact-caption {
+    font-weight: 50;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contact-caption h1 {
+    color: #393d3f;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#contact-form{
+    padding: 2rem 9rem;
+}
+
+footer{
+    background-color: #393d3f !important; 
+    height: 76px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#footer-caption h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#footer-caption p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-style: normal;
+}
+
+@media print { 
+    .navbar {
+        display: flex;
+        border-width: 0;
+    }
+    .navbar-toggle {
+        display:none;
+    }
+}
+
+
+ 
